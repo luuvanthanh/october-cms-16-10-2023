@@ -1,0 +1,20 @@
+plugin:
+    name: 'leabio.patient::lang.plugin.name'
+    description: 'leabio.patient::lang.plugin.description'
+    author: leabio
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Post
+        url: leabio/patient/category
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Category
+                url: leabio/patient/category
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Post
+                url: leabio/patient/post
+                icon: icon-sitemap

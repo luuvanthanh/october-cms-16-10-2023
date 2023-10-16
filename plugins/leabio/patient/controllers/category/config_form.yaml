@@ -1,0 +1,10 @@
+name: Category
+form: $/leabio/patient/models/category/fields.yaml
+modelClass: Leabio\Patient\Models\Category
+defaultRedirect: leabio/patient/category
+create:
+    redirect: 'leabio/patient/category/update/:id'
+    redirectClose: leabio/patient/category
+update:
+    redirect: leabio/patient/category
+    redirectClose: leabio/patient/category

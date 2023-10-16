@@ -1,0 +1,10 @@
+name: Post
+form: $/leabio/patient/models/post/fields.yaml
+modelClass: Leabio\Patient\Models\Post
+defaultRedirect: leabio/patient/post
+create:
+    redirect: 'leabio/patient/post/update/:id'
+    redirectClose: leabio/patient/post
+update:
+    redirect: leabio/patient/post
+    redirectClose: leabio/patient/post

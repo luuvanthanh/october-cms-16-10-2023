@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    category:
+        label: Category
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

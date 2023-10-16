@@ -1,0 +1,14 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.3:
+    - 'Created table leabio_patient_categories'
+    - builder_table_create_leabio_patient_categories.php
+v1.0.4:
+    - 'Drop table leabio_patient_categories'
+    - builder_table_delete_leabio_patient_categories.php
+v1.0.5:
+    - 'Created table leabio_patient_categories'
+    - builder_table_create_leabio_patient_categories.php
+v1.0.6:
+    - 'Created table leabio_patient_posts'
+    - builder_table_create_leabio_patient_posts.php
