@@ -27,10 +27,11 @@ class MyWidget extends FormWidgetBase
 
     public function prepareVars()
     {
-        // $this->vars['name'] = $this->formField->getName().'[]';
         $this->vars['id'] = $this->model->id;
         $this->vars['categories'] = Category::all()->lists('name', 'id');
         $this->vars['selectedValues'] = $this->getLoadValue();
+        $this->vars['name'] = $this->getFieldName();
+        $this->vars['value'] = $this->getLoadValue();
       
     }
 
@@ -42,8 +43,8 @@ class MyWidget extends FormWidgetBase
 
     public function getSaveValue($value)
     {
-        $this->model->category_id = 2;
-        $this->model->save();
+        // $this->model->category_id = 2;
+        // $this->model->save();
 
         return $value;
     }

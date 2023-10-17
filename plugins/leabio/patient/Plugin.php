@@ -28,7 +28,8 @@ class Plugin extends PluginBase
     {
         return [
             'Leabio\Patient\Components\CategoryList' => 'categoryList',
-            'Leabio\Patient\Components\ContactForm' => 'contactForm'
+            'Leabio\Patient\Components\ContactForm' => 'contactForm',
+            'Leabio\Patient\Components\CategoryForm' => 'CategoryForm',
         ];
     }
 
